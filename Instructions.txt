@@ -1,0 +1,23 @@
+1. npm install
+npm install discord-backup node-fetch@2
+
+2. node deploy-commands.js
+
+3. Si todo salió bien debe decir:
+
+Registrando comandos…
+Listo.
+
+4. node index.js
+
+5.Crear backup:
+/backup-now
+
+Restaurar backup (en el servidor de backup):
+/backup-load id: TU_ID
+
+Ocultar todo:
+/server-lock
+
+Mostrar todo:
+/server-unlock
